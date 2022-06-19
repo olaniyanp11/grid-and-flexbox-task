@@ -1,0 +1,29 @@
+*{margin:0;
+padding: 0;}
+body{display:flex;
+place-items: center;
+height:100vh;
+width: 100%;}
+main {display: grid;
+grid-template-areas: 
+'a a a b b'
+'a a a b b'
+'c c d d d'
+'c c d2 d2 d2';
+gap: 5px;
+margin: auto;
+}
+main div {padding:30px;
+    padding-inline-start: 200px;
+text-align: center;}
+.a{background: red; 
+grid-area: a;
+}
+.b{background: yellow;
+grid-area: b;}
+.c{background: yellowgreen;
+grid-area: c;}
+.d{background:  dodgerblue;
+grid-area: d;}
+.d2{background:  dodgerblue;
+grid-area: d2;}

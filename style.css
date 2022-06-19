@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+body,
+h3,
+button {
+    color: hsl(0, 0%, 95%);
+}
+
+#father {
+    display: flex;
+    margin: auto;
+     width: 100vh;
+    margin-top: 10%;
+    contain: content;}
+
+h3 {
+    font-family: "Big shoulders display";
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 5px;
+}
+
+.f1 {
+    background: hsl(31, 77%, 52%);
+    width: 33%;
+    padding: 2rem;
+    
+    padding-bottom: 5px
+}
+
+.f2 {
+    background: hsl(184, 100%, 22%);
+    width: 33%;
+    padding: 2rem;
+  
+    padding-bottom: 5px;
+}
+
+
+
+
+.b1 {
+    margin-bottom: 0%;
+    background-color: transparent;
+    padding:5px;
+    border: 1px solid white;
+}
+.b2{margin-bottom: 0%;
+     background-color: transparent;
+     padding:5px;
+border: 1px solid white;}
+.b3 {margin-bottom: 0%;
+     background-color: transparent;
+     padding:5px;
+border: 1px solid white;}
+
+.f3 {width: 33%;
+    background: hsl(179, 100%, 13%);
+    padding: 2rem;
+   
+    padding-bottom: 5px
+}
+button:hover{background-color: aliceblue;
+    color :black;}
+
+button {
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 0px;
+  
+}
+
+h3 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+    padding: top 2px;
+    padding-left: 0%;
+}
+@media only screen and (max-width: 500px) {
+    #father {
+        display: block;
+        width:100%;
+       
+        height: fit-content;
+    }
+    #f1{width: 100%;}
+    #f2{width: 100%;}
+    #f3{width: 100%;}
+}
+
+@media only screen and (max-width: 350px) {
+    #father{display: block;
+    margin: 0px;}
+}
