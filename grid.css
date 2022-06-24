@@ -27,3 +27,7 @@ grid-area: c;}
 grid-area: d;}
 .d2{background:  dodgerblue;
 grid-area: d2;}
+a{font size :25px;
+    position :fixed;
+    text-decoration:none;
+    color:black;}
