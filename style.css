@@ -105,3 +105,7 @@ img {
     #father{display: block;
     margin: 0px;}
 }
+a{font size :25px;
+    position :fixed;
+    text-decoration:none;
+    color:black;}
